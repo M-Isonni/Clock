@@ -1,5 +1,6 @@
 #include "clock.h"
 
+//using rototranslation formula adapted to our inverted Y axis in order to rotate a point given a rotation origin
 void Rotate(int originX, int originY, int *posX, int *posY,double alpha){
     
     double alpha_radiant=alpha*M_PI/180;
